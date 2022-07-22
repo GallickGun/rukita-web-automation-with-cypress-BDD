@@ -1,0 +1,10 @@
+{
+  "e2e":{
+    "baseUrl": "https://partners.imarukita.ninja/"
+  },
+  "testFiles": "**/*.{feature,features,spec.js,spec.ts}",
+    "env": {
+      "email": "contoh@mail.com",
+      "password": "hap$CF8&j#e}:E(%"
+    }
+  }

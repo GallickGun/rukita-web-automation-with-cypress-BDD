@@ -1,0 +1,34 @@
+{
+  "name": "rukita-web-automation-with-cypress-bdd",
+  "version": "1.0.0",
+  "description": "simple automation web with cypress, implementing POM and clean code",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "clean": "rm -f cypress/cucumber-json/*",
+    "headless": "npx cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GallickGun/rukita-web-automation-with-cypress-BDD.git"
+  },
+  "author": "GallickGun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GallickGun/rukita-web-automation-with-cypress-BDD/issues"
+  },
+  "homepage": "https://github.com/GallickGun/rukita-web-automation-with-cypress-BDD#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
