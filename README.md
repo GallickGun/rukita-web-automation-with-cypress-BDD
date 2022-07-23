@@ -57,7 +57,7 @@ Headless
 
 
 ## Findings
-1. Some room cards have no status label (Terisi, Tersedia)
+1. Some room cards are not showing any status labels(Terisi/Tersedia)
 
 ![no-label](https://user-images.githubusercontent.com/77434534/180612571-d785eaae-11fe-4a81-b5a3-6b1fd4d472f9.png)
 
