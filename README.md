@@ -57,7 +57,6 @@ Headless
 
 
 ## Findings
-```
 1. Some room cards have no status label (Terisi, Tersedia)
 
 ![no-label](https://user-images.githubusercontent.com/77434534/180612571-d785eaae-11fe-4a81-b5a3-6b1fd4d472f9.png)
@@ -65,6 +64,3 @@ Headless
 2. Occupied Room cards are not displaying current tenant's estimated checkout date
 
 ![no estimated leave](https://user-images.githubusercontent.com/77434534/180612714-ced5a59b-41f8-4115-931a-af6dd8aee639.png)
-
-~~~
-
