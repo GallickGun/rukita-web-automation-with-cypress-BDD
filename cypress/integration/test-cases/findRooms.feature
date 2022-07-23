@@ -7,16 +7,21 @@ Background: Login as QA Test and select Rukita 98 Residence Tebet
      When I select "Rukita 98 Residence Tebet" from property dropdown
      Then I should see "Total: 31 Kamar"
 
-Scenario: Find Occupied Rooms using filter
+Scenario: Find Occupied Rooms using Status Kamar filter
     When I select "Terisi" from status kamar dropdown
     And I click "Simpan" button
     Then I should see "Terisi" filter label is applied
     And I should see "Total: 14 Kamar"
     And I should see "Terisi" mark on displayed room cards
 
-Scenario: find Available Rooms using filter
+Scenario: Find Available Rooms using Status Kamar filter
     When I select "Tersedia" from status kamar dropdown
     And I click "Simpan" button
     Then I should see "Tersedia" filter label is applied
     And I should see "Total: 14 Kamar"
     And I should see "Tersedia" mark on displayed room cards
+
+Scenario: Find Occupied and Available Rooms using Status Kamar filter
+    When I select "Tersedia" and "Terisi" from status kamar dropdown
+    And I click "Simpan" button
+    Then filter labels should be applied

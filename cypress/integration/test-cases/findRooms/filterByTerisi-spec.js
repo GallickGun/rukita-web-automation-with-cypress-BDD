@@ -45,3 +45,11 @@ Then('I should see "Tersedia" filter label is applied', () => {
 And('I should see "Tersedia" mark on displayed room cards', () => {
     dashboardPage.cardsWithTersediaMarkAreDisplayed();
 });
+
+When('I select "Tersedia" and "Terisi" from status kamar dropdown', () => {
+    dashboardPage.applyBothFilters();
+});
+
+Then('filter labels should be applied', () => {
+    dashboardPage.filtersAreApplied();
+});

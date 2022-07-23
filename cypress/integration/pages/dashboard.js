@@ -37,6 +37,12 @@ class DashboardPage{
         cy.get(CHECKBOX_TERSEDIA).click();
     }
 
+    applyBothFilters(){
+        cy.get(DROPDOWN_STATUS_KAMAR).click();
+        cy.get(CHECKBOX_TERISI).click();
+        cy.get(CHECKBOX_TERSEDIA).click();
+    }
+
     clickSimpanBtn(){
         cy.get(BUTTON_SIMPAN).click();
     }
@@ -49,6 +55,10 @@ class DashboardPage{
         cy.contains('Total: 14 Kamar');
     }
 
+    total28KamarIsDisplayed(){
+        cy.contains("Total: 28 Kamar");
+    }
+
     filterTerisiIsApplied(){
         cy.get(FILTER_LABEL_TERISI).should('be.visible');
     }
@@ -57,6 +67,11 @@ class DashboardPage{
         cy.get(FILTER_LABEL_TERSEDIA).should('be.visible');
     }
 
+    filtersAreApplied(){
+        this.filterTerisiIsApplied();
+        this.filterTersediaIsApplied();
+    }
+    
     cardsWithTerisiMarkAreDisplayed(){
         cy.get(CARD_LABEL_TERISI).should('be.visible');
     }
