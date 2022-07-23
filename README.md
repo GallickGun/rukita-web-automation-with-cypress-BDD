@@ -12,7 +12,7 @@ ruOptions web automation with Cypress and BDD. Authored by Hans.
 ```
 
 ## How to Run Test With Cypress GUI
-```
+
 1. Clone this project
 2. open your IDE and terminal
 3. cd to the project directory
@@ -22,6 +22,6 @@ ruOptions web automation with Cypress and BDD. Authored by Hans.
 7. Click `findRooms.feature` and let Cypress does its magic
 8. Once the test is done running, close the tab and Cypress GUI
 9 And, run `npm run report:allure: to generate report
-```
+
 
 
