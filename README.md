@@ -5,11 +5,11 @@ ruOptions web automation with Cypress and BDD. Authored by Hans.
 **https://partners.imarukita.ninja/**
 
 ## What You Need to Run The Test
-```
-1. Node.js installed on your local machine
-2. Java 8 or higher (To Generate Allure Report) is installed on your machine
-3. IDE (In my case, I use VS Code)
-```
+
+*  Node.js installed on your local machine
+* Java 8 or higher (To Generate Allure Report) is installed on your machine
+* IDE (In my case, I use VS Code)
+
 
 ## How to Run Test With Cypress GUI
 
@@ -55,5 +55,7 @@ GUI report
 Headless
 ![headless-report](https://user-images.githubusercontent.com/77434534/180612079-8900a36f-778a-4e52-858b-c8d467ea2540.png)
 
+
+## Findings
 
 
