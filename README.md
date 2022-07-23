@@ -17,6 +17,9 @@ ruOptions web automation with Cypress and BDD. Authored by Hans.
 2. open your IDE and terminal
 3. cd to the project directory
 4. run `npm install`command to install cypress and the dependencies
+```
+npm install
+```
 5. run `npm run test` or if that does not work try `npx cypress open --env allure=true"`
 6. Wait for the Cypress GUI to appear
 7. Click `findRooms.feature` and let Cypress does its magic
