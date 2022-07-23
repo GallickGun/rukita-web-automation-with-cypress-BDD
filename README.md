@@ -1,17 +1,17 @@
 # Rukita Automation Test
 ruOptions web automation with Cypress and BDD. Authored by Hans.
 
-##Test Environment
+## Test Environment
 **https://partners.imarukita.ninja/**
 
-##What You Need to Run The Test
+## What You Need to Run The Test
 ```
 1. Node.js installed on your local machine
 2. Java 8 or higher (To Generate Allure Report) is installed on your machine
 3. IDE (In my case, I use VS Code)
 ```
 
-##How to Run Test With Cypress GUI
+## How to Run Test With Cypress GUI
 ```
 1. Clone this project
 2. open your IDE and terminal
