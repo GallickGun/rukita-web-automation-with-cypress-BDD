@@ -1,5 +1,5 @@
 # Rukita Automation Test
-ruOptions web automation with Cypress and BDD. Authored by Hans.
+ruOptions web automation with Cypress and BDD. 
 
 ## Test Environment
 **https://partners.imarukita.ninja/**
